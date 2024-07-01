@@ -1,3 +1,8 @@
+<?php
+session_start();
+include('../admin/inculde/config.php');
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,7 +12,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" href="../assets/">
+	<link rel="stylesheet" href="../assets/style/style.css">
     <title>Login Page</title>
   </head>
   <body>
@@ -18,16 +23,16 @@
 				<div class="card my-5">
 				  <div class="login-card">
 					<h3 class="card-title text-center">Login</h3>
-					<form>
+					<form  action="./process/login-process.php" method="post">
 					  <div class="mb-3">
 						<label for="email" class="form-label ">Email address</label>
-						<input type="email" class="form-control" id="email" placeholder="Enter email">
+						<input type="email" name="email" required class="form-control" id="email" placeholder="Enter email">
 					  </div>
 					  <div class="mb-3">
 						<div class="d-flex justify-content-between">
-							<label for="password" class="form-label">Password</label> <a href="">forgot password</a>
+							<label for="password"  class="form-label">Password</label> 
 						</div>
-						<input type="password" class="form-control" id="password" placeholder="Password">
+						<input type="password" name="password" class="form-control" id="password" placeholder="Password">
 					  </div>
 					  <div class="mb-3 form-check">
 						<input type="checkbox" class="form-check-input" id="rememberMe">
