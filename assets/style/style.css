@@ -3,9 +3,9 @@ body {
   }
   
   .card {
-	border-radius: 0.75rem;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
   .login-card{
 	padding: 30px 20px;
   }
