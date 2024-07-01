@@ -14,7 +14,7 @@
     <section class="login-section d-flex flex-column justify-content-center">
 		<div class="container">
 			<div class="row justify-content-center">
-			  <div class="col-md-6 col-lg-4">
+			  <div class="col-md-6 col-lg-4"> 
 				<div class="card my-5">
 				  <div class="login-card">
 					<h3 class="card-title text-center">Login</h3>
