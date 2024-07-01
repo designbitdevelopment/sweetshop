@@ -1,13 +1,13 @@
 <?php
-$projectName = "AceMall";
-$projectCode = "AE";
-$projectCodeLast = 'ML';
-$projectMail = "info@acemall.club";
-$projectDomain = "https://acemall.club/";
+$projectName = "SweatShop";
+$projectCode = "SS";
+$projectCodeLast = 'SP';
+$projectMail = "designbit@gmail.com";
+$projectDomain = "https://SweatShop/";
 $projectTelegram = "";
 
 if (strpos($_SERVER['REQUEST_URI'], 'demo') !== false) {
-    $projectURL = "https://acemall.club/";
+    $projectURL = "https://SweatShop/";
 } else {
-    $projectURL = "https://acemall.club/";
+    $projectURL = "https://SweatShop/";
 }
